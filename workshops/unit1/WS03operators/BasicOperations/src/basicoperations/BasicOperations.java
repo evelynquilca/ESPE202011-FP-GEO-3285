@@ -25,14 +25,33 @@ public class BasicOperations {
         int subtrahend;
         int difference;
         
-        minuend= -23;
-        subtrahend= -6;
+        int product = 0;
+        int multiplying;
+        int multiplier;
+        
+        int divisor;
+        int dividend;
+        int quotient = 0;
+        
+        int module;
+        
+        
         
                 
         
         //initilization
         addend1 = 5;
         addend2 = 18;
+        
+        minuend=-23;
+        subtrahend=-6;
+        
+        multiplier=6;
+        multiplying=4;
+        
+        dividend=16;
+        divisor=4;
+        
         
         //operation
         sum= addend1 + addend2;
@@ -50,5 +69,16 @@ public class BasicOperations {
         
         System.out.println("the subtraction of" + minuend + "-" + subtrahend +
                 "is equal to" + (minuend - subtrahend));
+        
+        System.out.println("the multiplication of" + multiplier + "*" + 
+                multiplying + "is equal to -->" + product);
+        
+        System.out.println("The division of" + dividend + "/" + divisor +
+                "is equal to -->" + quotient);
+        
+        System.out.println("the module of"+ dividend + "%" + divisor +
+                "is equal to-->" + ( dividend % divisor));
+        
+        
    
 }}
