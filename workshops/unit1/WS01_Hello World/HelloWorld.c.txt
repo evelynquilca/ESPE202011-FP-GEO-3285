@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+	//printf() displays information
+	printf("Hello World from \t\" Evelyn Quilca!\" =)\n);
+	printf("\n The grade is %d \n", grade)
+	return 0;
+}
+

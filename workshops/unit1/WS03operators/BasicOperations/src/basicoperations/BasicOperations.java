@@ -34,11 +34,7 @@ public class BasicOperations {
         int quotient = 0;
         
         int module;
-        
-        
-        
-                
-        
+    
         //initilization
         addend1 = 5;
         addend2 = 18;
@@ -69,10 +65,10 @@ public class BasicOperations {
         
         System.out.println("the subtraction of" + minuend + "-" + subtrahend +
                 "is equal to" + (minuend - subtrahend));
-        
+     
         System.out.println("the multiplication of" + multiplier + "*" + 
                 multiplying + "is equal to -->" + product);
-        
+       
         System.out.println("The division of" + dividend + "/" + divisor +
                 "is equal to -->" + quotient);
         
