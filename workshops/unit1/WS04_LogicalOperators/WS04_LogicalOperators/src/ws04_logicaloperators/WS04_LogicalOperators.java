@@ -16,7 +16,7 @@ public class WS04_LogicalOperators {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-                int x = 15;
+        int x = 15;
         if (x != 15) {
             System.out.println("x is equals to 15");
         } else {
@@ -69,19 +69,19 @@ public class WS04_LogicalOperators {
 
         p = true;
         q = true;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " ^ " + q + " ) " + (p || q));
         
         p = true;
         q = false;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " ^ " + q + " ) " + (p || q));
         
         p = false;
         q = true;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));        
+        System.out.println(" ( " + p + " ^ " + q + " ) " + (p || q));        
         
         p = false;
         q = false;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " ^ " + q + " ) " + (p || q));
     }
 }
 
