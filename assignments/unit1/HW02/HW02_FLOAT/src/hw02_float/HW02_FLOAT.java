@@ -21,8 +21,7 @@ public class HW02_FLOAT {
         
         
 try (Scanner leer = new Scanner(System.in)) {
-			float ladoa=(float) 1.5, ladob=(float) 1.5, 
-                                ladoc=(float) 4.5, ladod=(float) 4.5;
+			float ladoa=0, ladob=0, ladoc=0, ladod=0;
 			System.out.printf("Ingrese el lado a: ");
 			ladoa=leer.nextFloat ();       
 			System.out.printf("Ingrese el lado b: ");
@@ -35,8 +34,8 @@ try (Scanner leer = new Scanner(System.in)) {
                         System.out.printf("El perimetro del rectangulo es: " 
                                 + ladoa + ladob + ladoc + ladod);
 }
+    }
 }
-}   
 
     
                         

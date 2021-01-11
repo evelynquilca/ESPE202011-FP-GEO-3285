@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw02_short;
+package hw02_int;
 
 /**
  *
  * @author hp
  */
-public class HW02_SHORT {
+public class HW02_INT {
 
     /**
      * @param args the command line arguments
@@ -38,4 +38,3 @@ public class HW02_SHORT {
 		return (short) (ladoa+ ladob + ladoc + ladod);
 	}
 }
-
