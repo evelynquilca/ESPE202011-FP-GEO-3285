@@ -16,8 +16,8 @@ public class WS10Functions {
      */
     public static void main(String[] args) {
 
-        int divd = 5;
-        int divr = 10;
+        int divd = 6;
+        int divr = 12;
         float quotient = 0;
         int x = 0;
         int y = 0;
@@ -25,13 +25,13 @@ public class WS10Functions {
         //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
 
-        System.out.println("Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
+        System.out.println("Quotient of 6 and 12 is -> " + quotient); //0.6 or ?
 
-        y = f(3);
-        System.out.println("3^2 -> " + y);
+        y = f(4);
+        System.out.println("4^2 -> " + y);
 
-        y = f(-3);
-        System.out.println("-3^2 -> " + y); //9
+        y = f(-4);
+        System.out.println("-4^2 -> " + y); //16
         
         x = -1;
         y = f(x);
@@ -45,7 +45,7 @@ public class WS10Functions {
         //body of the function
         float quotient = 0.0F;
 
-        //             5        10   -> 0.5
+        //             6        12   -> 0.6
         // float     int        int
         quotient = (float) dividend / (float) divisor;
 
