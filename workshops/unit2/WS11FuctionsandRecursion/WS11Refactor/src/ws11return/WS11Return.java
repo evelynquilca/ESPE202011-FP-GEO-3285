@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw10functions;
+package ws11return;
 
 import java.util.Scanner;
 
 /**
  *
- * @author Quilca Evelyn
+ * @author hp
  */
-public class HW10Functions {
+public class WS11Return {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
-               Scanner input = new Scanner(System.in);
+                Scanner input = new Scanner(System.in);
         int divd;
         int divr;
         float quotient = 0;
@@ -94,5 +93,3 @@ public class HW10Functions {
 
 }
     
-    
-
