@@ -155,7 +155,7 @@ public class WS13Task {
         System.out.println("Enter the radio of pentagono");
         radio = input.nextDouble();
         
-        System.out.println("Enter the apotema of pentagono");
+        System.out.println("Enter the apotem of pentagono");
         apotema = input.nextDouble();
         
         if ((radio == 0) && (apotema == 0)){
