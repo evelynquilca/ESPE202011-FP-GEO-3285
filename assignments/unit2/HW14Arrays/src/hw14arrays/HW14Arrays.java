@@ -45,16 +45,16 @@ public class HW14Arrays {
 
         agesStudents = new int[n];
         
-//        gaseous[0] = 17;
-//        gaseous[1] = 19;
-//        gaseous[2] = 15;
-//        gaseous[3] = 16;
-//        gaseous[4] = 15;
-//        gaseous[5] = 17;
-//        gaseous[6] = 19;
-//        gaseous[7] = 15;
-//        gaseous[8] = 19;
-//        gaseous[9] = 18;
+//        age[0] = 17;
+//        age[1] = 19;
+//        age[2] = 15;
+//        age[3] = 16;
+//        age[4] = 15;
+//        age[5] = 17;
+//        age[6] = 19;
+//        age[7] = 15;
+//        age[8] = 19;
+//        age[9] = 18;
 
         for (int i = 0; i < n; i++) {
             System.out.print("Enter the age " + (i + 1) + " -> ");
