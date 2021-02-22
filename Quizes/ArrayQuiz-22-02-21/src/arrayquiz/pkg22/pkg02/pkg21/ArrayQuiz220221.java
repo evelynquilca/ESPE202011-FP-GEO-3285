@@ -26,7 +26,8 @@ public class ArrayQuiz220221 {
         do { 
         System.out.println("        WELCOME TO MENU     ");            
         System.out.println("-------  1. CANDIDATES WITH VOTES PERCENTAGE -------");
-        System.out.println("------- 2. Exit -------  ");        
+        System.out.println("------- 2. Correction -------");        
+        System.out.println("------- 3. Exit -------  ");        
         System.out.println("Enter you menu option -->");
             option = input.nextInt(); 
             switch (option) {
@@ -63,6 +64,35 @@ public class ArrayQuiz220221 {
     }
                 }
                 case 2 -> {
+        int totalOfCandidates = 0;
+        String[] candidates;
+        float[] percentageOfCandidates;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print(" Please Enter the amount of candidates you want to record -> ");
+        totalOfCandidates = scanner.nextInt();
+
+        candidates = new String[totalOfCandidates];
+        percentageOfCandidates = new float[totalOfCandidates];
+
+        for (int i = 0; i < totalOfCandidates; i++) {
+            scanner.nextLine();
+            System.out.print(" Please Enter the name of candidate # " + i + " -> ");
+            candidates[i] = scanner.nextLine();
+            System.out.print(" Please enter " + candidates[i] + " percentage ->");
+            percentageOfCandidates[i] = scanner.nextFloat();
+        }
+
+        System.out.println(" Player    ->  \t     percentage ");
+
+        for (int i = 0; i < totalOfCandidates; i++) {
+            System.out.println(candidates[i] + " ->  \t " + percentageOfCandidates[i]);
+        }
+
+                }
+                                   
+                case 3 -> {
                     System.out.println("------- Good Bye -------");
                     System.exit(0);
                }
@@ -70,7 +100,7 @@ public class ArrayQuiz220221 {
                 default -> System.out.println("Invalid option\n\n\n");
 
             }
-        } while (option != 2);
+        } while (option != 3);
     }  
 }
             
