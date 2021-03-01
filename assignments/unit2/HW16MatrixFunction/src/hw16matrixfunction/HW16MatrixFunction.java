@@ -26,6 +26,7 @@ public class HW16MatrixFunction {
         
         Scanner input = new Scanner(System.in);
         
+        System.out.println(" CALCULATOR MATRIX MULTIPLICATION ");
         System.out.println("Enter the matrix dimesions");
         System.out.println("\n m->");
         m= input.nextInt();
