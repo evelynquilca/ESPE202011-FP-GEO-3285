@@ -28,6 +28,7 @@ public class HW10Functions {
         int result;
         int top = 12;
         
+        System.out.println("AUTHOR: EVELYN QUILCA");
         System.out.println("Enter a number for divd -->");
         divd = input.nextInt();
         
