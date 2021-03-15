@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hp
+ * @author QUILCA EVELYN
  */
 public class BasicMatrix {
     
