@@ -1,0 +1,6 @@
+
+pink, square, 4, 13, 12389.0
+pink, Square, 3, 200, 23000.0
+green, Square, 3, 200, 23000.0
+green, Square, 3, 200, 23000.0
+skyblue, Square with reliefs, 3, 222, 34600.0
