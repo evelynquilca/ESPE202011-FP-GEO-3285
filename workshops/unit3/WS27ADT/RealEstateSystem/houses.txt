@@ -4,3 +4,8 @@ pink, Square, 3, 200, 23000.0
 green, Square, 3, 200, 23000.0
 green, Square, 3, 200, 23000.0
 skyblue, Square with reliefs, 3, 222, 34600.0
+skyblue, Square, 2, 12m , 12000.0
+skyblue, Square, 2, 12m , 12000.0
+skyblue, Square, 2, 12m , 12000.0
+skyblue, Square, 2, 12m , 12000.0
+black, Square, 2, 16m , 12000.0

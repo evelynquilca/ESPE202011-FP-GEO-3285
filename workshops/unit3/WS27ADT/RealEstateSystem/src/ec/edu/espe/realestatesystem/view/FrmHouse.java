@@ -163,14 +163,14 @@ public class FrmHouse extends javax.swing.JFrame {
         House house;
         String color;
         String form;
-        int size;
+        String size;
         int age;
         int price;
         HouseController houseController = new HouseController();
         
         color= cmbColor.getSelectedItem().toString();
         form= txtForm.getText();
-        size= Integer.parseInt(txtSize.getText());
+        size= txtSize.getText();
         age= Integer.parseInt(txtAge.getText());
         price= Integer.parseInt(txtPrice.getText());
         

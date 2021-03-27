@@ -12,11 +12,11 @@ package ec.edu.espe.realestatesystem.model;
 public class House {
     private String color;
     private String form;
-    private int size;
+    private String size;
     private int age;
     private int price;
 
-    public House(String color, String form, int size, int age, int price) {
+    public House(String color, String form, String size, int age, int price) {
         this.color = color;
         this.form = form;
         this.size = size;
@@ -57,14 +57,14 @@ public class House {
     /**
      * @return the size
      */
-    public int getSize() {
+    public String getSize() {
         return size;
     }
 
     /**
      * @param size the size to set
      */
-    public void setSize(int size) {
+    public void setSize(String size) {
         this.size = size;
     }
 
