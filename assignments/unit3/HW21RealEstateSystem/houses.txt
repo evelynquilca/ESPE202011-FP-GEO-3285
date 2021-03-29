@@ -1,0 +1,8 @@
+
+Other..., Square, 3, 12m, 23000.0
+SkyBlue, Rectangle, 2, 100m, 22000.0
+Black, Rectangle, 1, 120m, 25000.0
+Black, Rectangle, 1, 120m, 25000.0
+Black, Rectangle, 1, 120m, 25000.0
+Black, Rectangle, 1, 120m, 25000.0
+Black, Rectangle, 1, 120m, 25000.0
