@@ -65,13 +65,7 @@ public class FrmHouse extends javax.swing.JFrame {
         cmbColor.setForeground(new java.awt.Color(204, 102, 255));
         cmbColor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "White", "Black", "SkyBlue", "Green", "Brown", "Other...", " " }));
 
-        txtForm.setForeground(new java.awt.Color(102, 255, 204));
-
-        txtSize.setForeground(new java.awt.Color(102, 255, 102));
-
-        txtAge.setForeground(new java.awt.Color(255, 153, 51));
-
-        txtPrice.setForeground(new java.awt.Color(153, 153, 255));
+        txtForm.setForeground(new java.awt.Color(51, 51, 51));
 
         btnSave.setForeground(new java.awt.Color(51, 0, 255));
         btnSave.setText("Save");
@@ -192,7 +186,7 @@ public class FrmHouse extends javax.swing.JFrame {
 
     private void btnShowHousesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnShowHousesActionPerformed
         HouseController houseController = new HouseController();
-        txtAreaHouses.setText(houseController.read());
+        txtAreaHouses.setText(houseController.read()[0]);
     }//GEN-LAST:event_btnShowHousesActionPerformed
 
     /**

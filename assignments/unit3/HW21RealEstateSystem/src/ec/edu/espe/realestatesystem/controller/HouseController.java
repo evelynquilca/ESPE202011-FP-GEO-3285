@@ -19,9 +19,9 @@ public class HouseController {
         FileManager.save(data, "houses");
     }
     
-    public String read(){
-        String data;
-        data = FileManager.read("houses");
+    public String[] read(){
+        String[] data= new String[FileManager.returnSize("houses.csv")];
+        data = FileManager.read("houses.csv");
         return data;
     }
     

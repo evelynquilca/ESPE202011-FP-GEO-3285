@@ -6,8 +6,10 @@
 package utils;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  *
@@ -41,7 +43,7 @@ public class FileManager {
         createFile(fileName);
 
         try {
-            FileWriter myWrite = new FileWriter(fileName + ".txt", true);
+            FileWriter myWrite = new FileWriter(fileName + ".csv", true);
             myWrite.write(System.getProperty("line.separator") + data);
             myWrite.close();
             System.out.println("a new record of " + fileName + " was saved");
@@ -52,14 +54,38 @@ public class FileManager {
 
         return saved;
     }
-    
-    public static String read(String fileName) {
-       
-            
-                
-        return "Black, Rectangle, 120m, 1, 25000";
+    public static int returnSize(String fileName){
+        int numbersOfLines= 0;     
+       try{
+           Scanner s= new Scanner( new File(fileName));
+           while (s.hasNextLine()){
+               numbersOfLines++;               
+           }
+       } catch (FileNotFoundException e){
+           System.out.println("file not found");
+       }
+        return numbersOfLines;
     }
     
+    
+    public static String[] read(String fileName) {
+       int numbersOfLines= 0;
+       String[] results= null;
+       int counter= 0;
+       try{
+           Scanner s= new Scanner( new File(fileName));
+           results = new String[numbersOfLines];
+           while (s.hasNextLine()){
+               results[counter] = s.nextLine();
+               
+           }
+       } catch (FileNotFoundException e){
+           System.out.println("file not found");
+       }
+        return results;
+    }
+    
+
 }
     
 
